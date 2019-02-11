@@ -71,6 +71,15 @@ nav li {
   padding: 10px;
 }
 
+nav a {
+  transition: width 2s ease-in 6s;
+}
+
+nav a:hover {
+  border-bottom: 3px solid rgb(224, 186, 114);
+  padding-bottom: 3px;
+}
+
 .header-text {
   text-align: center;
   position
@@ -81,6 +90,10 @@ nav li {
 .header-btn {
   background-color: rgb(224, 186, 114);
   margin: 30px auto;
+}
+
+.header-btn:hover {
+  background-color: rgb(170, 154, 124);
 }
 
 /***Services***/
