@@ -1,0 +1,79 @@
+/*---GLOBAL STYLES ---*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+}
+
+.wrap {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn {
+  display: block;
+  width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/***Header***/
+
+header {
+  height: 400px;
+  background: #87509c;
+  border-bottom: 1px solid #000;
+  
+}
+
+.logo {
+  font-size: 2.5em;
+  position: relative;
+  top: 25px;
+  display: inline-block;
+}
+
+nav {
+  float: right;
+  position: relative;
+  top: 25px;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+.header-text {
+  text-align: center;
+  position
+  display: block;
+  margin-top: 125px;
+}
+
+.header-btn {
+  background-color: rgb(224, 186, 114);
+  margin: 30px auto;
+}
+
+/***Services***/
+.services {
+  height: 500px;
+  
+}
+
+
+
