@@ -31,11 +31,16 @@ a {
   text-align: center;
 }
 
-.col {
+.col-4 {
   width: 25%;
   float: left;
   text-align: center
-  
+}
+
+.col-2 {
+  width: 50%;
+  float: left;
+  text-align: center;
 }
 
 i {
@@ -154,6 +159,27 @@ nav a:hover {
   padding: 80px 0;
   text-align: center;
   color: #000;
+}
+
+/***Portfolio***/
+#portfolio {
+  height: 100%;
+  color: #000;
+  text-align: center;
+  background-color: #ffdd99;
+  border-bottom:  1px solid black;
+  overflow: auto;
+  padding: 80px 0 40px;
+}
+
+.portfolio-text {
+  padding-bottom: 50px;
+}
+
+#portfolio img {
+  height: 300px;
+  width: 400px;
+  padding-bottom: 50px;
 }
 
 
