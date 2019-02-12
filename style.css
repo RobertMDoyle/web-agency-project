@@ -97,7 +97,7 @@ nav a:hover {
 }
 
 /***Services***/
-.services {
+#services {
   height: 500px;
   background-color: #17c2a4;
   border-bottom:  1px solid black;
@@ -106,6 +106,36 @@ nav a:hover {
 .services-text {
   text-align: center;
   padding: 80px 0;
+}
+
+/***Team***/
+#team {
+  height: 700px;
+  background-color: #e7f1f8;
+  color: #000;
+  border-bottom:  1px solid black;
+}
+
+.team-text {
+  text-align: center;
+  padding: 80px 0;
+}
+
+#team img {
+  border-radius: 50%;
+  border: 2px solid #17c2a4;
+  padding: 3px;
+}
+
+#team h4 {
+  color: #17c2a4;
+  font-size: 1.2em;
+}
+
+.social-media i {
+  font-size: 2em;
+  padding: 2px;
+  color: rgb(9, 9, 175);
 }
 
 
