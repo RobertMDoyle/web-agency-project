@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: #fff;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -214,7 +218,7 @@ nav a:hover {
 
 /***Contact Us***/
 #contact-us {
-  height: 500px;
+  height: 600px;
   color: #fff;
   text-align: center;
   background-color: #3c5499;
@@ -247,6 +251,34 @@ nav a:hover {
 
 #contact-us input::placeholder, textarea::placeholder {
   color: #fff;
+}
+
+.submit-btn {
+  background-color: #30bae7;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid blue;
+  color: #fff;
+  margin-top: 30px;
+}
+
+/***footer***/
+footer {
+  height: 75px;
+  background-color: #273a71;
+}
+
+.footer-links {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.footer-links a {
+  padding: 0 20px;
+}
+
+.footer-links a:hover {
+  color: #30bae7;
 }
 
 
